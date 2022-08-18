@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;400;600;700&display=swap');
+
+*{padding: 0px;margin: 0px;box-sizing: border-box;}
+img{width: 100%;float: left;}
+body{background: url("w.jpg")no-repeat;background-size: cover;height: 100%;overflow: hidden;font-family: 'Poppins', sans-serif}
+.outer{width: 100%;float: left;padding-top: 40px;color:white;}
+.main{width: 1200px;margin: auto;}
+.top{width: 100%;float: left;display: flex;}
+.top-left{width:50%;float: left;}
+.top-right{width: 50%;float: right;}
+.top-left .time{font-size:40px;}
+#am-pm{font-size: 20px;padding-left: 10px;}
+.date{font-size: 30px;font-weight: 100;}
+.other{border: 1px solid white;width: 49%;border-radius: 10px;padding: 25px 15px;margin-top: 10px;background:rgba(24,24,27,0.5)}
+.weather-item{display: flex;}
+.hum{width:75%;text-transform: capitalize;}
+.time-zone{font-size: 30px;font-weight: 100;}
+.country{font-size: 12px;font-weight: 700;text-align: end;}
+.inner-right{width: 29%;float: left;}
+.last{width: 100%;float: left;bottom: 0;position:absolute;}
+.future-weather{background: rgba(24,24,27,0.8);display: flex;text-align: center;color: white;}
+.weather-for{background: rgba(24,24,27,0.8);display: flex;border: 1px solid;padding: 15px 38px;border-radius: 5px;margin:7px;}
+.future-weather .today{border: 1px solid white;border-radius: 5px;float: left;padding: 13px 16px;text-align: center;justify-content: center;}
+.future-weather .today img{display: inline-block;width: 57%;top: 20%;position: relative;}
+.future-weather .today .day{display: inline-block;background: gray;border-radius: 14px;padding: 1px 5px;}
+.weather-for .weather-for-item .day{background: gray;border-radius: 10px;}
+.temp{font-size: 11px;}
+
+
